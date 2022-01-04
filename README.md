@@ -29,11 +29,15 @@ The mean correction calculates the mean depth where 100 rays equally spaced alon
 
 If using the C version, compile (with gcc, for example) with the math flag (because of the trigonometric functions)
 
+`
 gcc SphericalAberrationFix.c -lm
+`
 
 If using the python version, simply run the script
 
+`
 python SA.py
+`
 
 The equations were taken from the next reference:
 
