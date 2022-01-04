@@ -1,9 +1,10 @@
 # Fixing-Spherical-Aberration
-This program calculates the Z step correction factor due to a mismatch in the Refractive Indices between the objective's immerse medium (water, oil, etc) and the sample.
+This program calculates the Z step correction factor due to a mismatch in the Refractive Indices (Spherical Aberration) between the objective's immerse medium (water, oil, etc) and the sample.
 
 First, it calculates the Refractive Index (RI) of a sample (n2) given the refractive indices of the particles (np) and the solvent (ns), by using the packing fraction phi,
 
 n2 = phi*np + (1-phi)*ns
+n<sub>2</sub> = &phi;n<sub>p</sub> + (1-&phi;)n<sub>s</sub>
 
 After calculating the sample's RI n2, it uses the immersion medium RI n1 (from the input in the header) and calculates the corrected step given a step in Z (the default is 0.25 in microns).
 
