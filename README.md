@@ -15,7 +15,7 @@ The correction factor is calculated with 4 different approaches:
 
    2) Visser's correction
 
-     ![\Large \frac{\tan\left(\frac{NA}{n_1}\right)}{\tan\left(\frac{NA}{n_2}\right)}](https://latex.codecogs.com/svg.latex?\Large&space;\frac{\tan\left(\frac{NA}{n_1}\right)}{\tan\left(\frac{NA}{n_2}\right)})
+     ![\Large \left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?\Large&space;\left(\frac{n_2}{n_1}\right))
    
    3) Mean correction
    
