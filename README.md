@@ -26,3 +26,7 @@ The correction factor is calculated with 4 different approaches:
     ![\frac{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_2}\right)\right)}](https://latex.codecogs.com/svg.latex?&space;\frac{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_2}\right)\right)})
 
 The mean correction calculates the mean depth where 100 rays equally spaced along the radius of an objective’s front lens intersect the optical axis in the sample, and the median correction calculates the median intersection point.
+
+The equations were taken from the next reference:
+
+Diel, E.E., Lichtman, J.W. & Richardson, D.S. Tutorial: avoiding and correcting sample-induced spherical aberration artifacts in 3D fluorescence microscopy. Nat Protoc 15, 2773–2784 (2020). https://doi.org/10.1038/s41596-020-0360-2
