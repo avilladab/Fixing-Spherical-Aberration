@@ -5,7 +5,7 @@ First, it calculates the Refractive Index (RI) of a sample (n<sub>2</sub>) given
 
 ![n_{2}={\varphi}n_{p}+(1-{\varphi})n_{s}](https://latex.codecogs.com/svg.latex?&space;n_{2}={\varphi}n_{p}+(1-{\varphi})n_{s}).
 
-After calculating the sample's RI n<sub>2</sub>, it uses the immersion medium RI n<sub>1</sub> and the objective's Numerical Aperture (NA) from the input in the header and calculates the correction factor and the corrected step &Delta;z<sub>r</sub> given a mechanical step in Z &Delta;z<sub>m</sub> (the default is 0.25 in &mu;m).
+After calculating the sample's RI n<sub>2</sub>, it uses the objective's immersion medium RI n<sub>1</sub> and the objective's Numerical Aperture (NA) from the input in the header and calculates the correction factor and the corrected step &Delta;z<sub>r</sub> given a mechanical step in Z &Delta;z<sub>m</sub> (the default is 0.25 in &mu;m).
 
 The correction factor is calculated with 4 different approaches:
 
