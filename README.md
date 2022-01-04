@@ -9,14 +9,9 @@ After calculating the sample's RI n<sub>2</sub>, it uses the immersion medium RI
 
 The correction factor is calculated with 4 different approaches:
 
-   1) Carlsson's correction
-
-      ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-   2) Visser's correction
-
-     ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-   3) Mean correction
-   
-   4) Median correction
+1) Carlsson's correction: ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
+2) Visser's correction: ![\tan\left(\sin^{-1}\left(\frac{n_2}{n_1}\right)\right)](https://latex.codecogs.com/svg.latex?&space;\tan\left(\sin^{-1}\left(\frac{n_2}{n_1}\right)\right))
+3) Mean correction
+4) Median correction
 
 The mean correction calculates the mean depth where 100 rays equally spaced along the radius of an objective’s front lens intersect the optical axis in the sample, and the median correction calculates the median intersection point.
