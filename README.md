@@ -12,11 +12,9 @@ The correction factor is calculated with 4 different approaches:
    1) Carlsson's correction
 
       ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-
    2) Visser's correction
 
      ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-   
    3) Mean correction
    
    4) Median correction
