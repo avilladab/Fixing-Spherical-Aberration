@@ -29,4 +29,5 @@ The mean correction calculates the mean depth where 100 rays equally spaced alon
 
 The equations were taken from the next reference:
 
-Diel, E.E., Lichtman, J.W. & Richardson, D.S. Tutorial: avoiding and correcting sample-induced spherical aberration artifacts in 3D fluorescence microscopy. Nat Protoc 15, 2773–2784 (2020). https://doi.org/10.1038/s41596-020-0360-2
+Diel, E.E., Lichtman, J.W. & Richardson, D.S. Tutorial: avoiding and correcting sample-induced spherical aberration artifacts in 3D fluorescence microscopy. Nat Protoc 15, 2773–2784 (2020).
+https://doi.org/10.1038/s41596-020-0360-2
