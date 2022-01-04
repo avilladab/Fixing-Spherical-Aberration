@@ -12,6 +12,6 @@ The correction factor is calculated with 4 different approaches:
 1) Carlsson's correction: ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
 2) Visser's correction: ![\frac{\tan\left(\sin^{-1}\left(\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{NA}{n_2}\right)\right)}](https://latex.codecogs.com/svg.latex?&space;\frac{\tan\left(\sin^{-1}\left(\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{NA}{n_2}\right)\right)})
 3) Mean correction: ![\frac{1}{100}\sum_{k=1}^{100}\frac{\tan\left(\sin^{-1}\left(\frac{k}{100}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{k}{100}\frac{NA}{n_2}\right)\right)}](https://latex.codecogs.com/svg.latex?&space;\frac{1}{100}\sum_{k=1}^{100}\frac{\tan\left(\sin^{-1}\left(\frac{k}{100}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{k}{100}\frac{NA}{n_2}\right)\right)})
-4) Median correction
+4) Median correction: ![\frac{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_2}\right)\right)}](https://latex.codecogs.com/svg.latex?&space;\frac{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{1}{2}\frac{NA}{n_2}\right)\right)})
 
 The mean correction calculates the mean depth where 100 rays equally spaced along the radius of an objective’s front lens intersect the optical axis in the sample, and the median correction calculates the median intersection point.
