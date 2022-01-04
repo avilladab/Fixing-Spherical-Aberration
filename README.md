@@ -1,7 +1,7 @@
 # Fixing-Spherical-Aberration
 This program calculates the Z step correction factor due to a mismatch in the Refractive Indices (Spherical Aberration) between the objective's immerse medium (water, oil, etc) and the sample.
 
-First, it calculates the Refractive Index (RI) of a sample (![{n_2}](https://latex.codecogs.com/svg.latex?&space;{n_2})) given the refractive indices of the particles (![{n_p}](https://latex.codecogs.com/svg.latex?&space;{n_p})) and the solvent (![{n_s}](https://latex.codecogs.com/svg.latex?&space;{n_s})), by using the packing fraction ![{\varphi}](https://latex.codecogs.com/svg.latex?&space;{\varphi}),
+First, it calculates the Refractive Index (RI) of a sample (n<sub>2</sub>) given the refractive indices of the particles (![{n_p}](https://latex.codecogs.com/svg.latex?&space;{n_p})) and the solvent (![{n_s}](https://latex.codecogs.com/svg.latex?&space;{n_s})), by using the packing fraction ![{\varphi}](https://latex.codecogs.com/svg.latex?&space;{\varphi}),
 
 ![n_{2}={\varphi}n_{p}+(1-{\varphi})n_{s}](https://latex.codecogs.com/svg.latex?&space;n_{2}={\varphi}n_{p}+(1-{\varphi})n_{s}).
 
