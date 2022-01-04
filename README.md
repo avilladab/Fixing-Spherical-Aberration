@@ -5,7 +5,7 @@ First, it calculates the Refractive Index (RI) of a sample (n<sub>2</sub>) given
 
 n<sub>2</sub> = &phi;n<sub>p</sub> + (1-&phi;)n<sub>s</sub>
 
-![\Large n_2 =\phi n_p + (1-\phi)n_s](https://latex.codecogs.com/svg.latex?\Large&space;n_2 =\phi n_p + (1-\phi)n_s) 
+![\Large n_{2}={\phi}n_{p}+(1-{\phi})n_{s}](https://latex.codecogs.com/svg.latex?\Large&space;n_{2}={\phi}n_{p}+(1-{\phi})n_{s}) 
 
 After calculating the sample's RI n<sub>2</sub>, it uses the immersion medium RI n<sub>1</sub> (from the input in the header) and calculates the corrected step given a step in Z (the default is 0.25 in &mu;m).
 
