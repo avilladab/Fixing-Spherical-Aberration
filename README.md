@@ -27,7 +27,7 @@ The correction factor is calculated with 4 different approaches:
 
 The mean correction calculates the mean depth where 100 rays equally spaced along the radius of an objective’s front lens intersect the optical axis in the sample, and the median correction calculates the median intersection point.
 
-If using the C version, compile (with gcc, for example) with the math flag (because of the trigonometric functions)
+If using the C version, compile (using gcc, for example) with the math flag (because of the trigonometric functions)
 
 `
 gcc SphericalAberrationFix.c -lm
