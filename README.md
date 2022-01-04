@@ -10,7 +10,7 @@ After calculating the sample's RI n<sub>2</sub>, it uses the immersion medium RI
 The correction factor is calculated with 4 different approaches:
 
 1) Carlsson's correction: ![\left(\frac{n_2}{n_1}\right)](https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-2) Visser's correction: ![\tan\left(\sin^{-1}\left(\frac{n_2}{n_1}\right)\right)](https://latex.codecogs.com/svg.latex?&space;\tan\left(\sin^{-1}\left(\frac{n_2}{n_1}\right)\right))
+2) Visser's correction: ![\frac{\tan\left(\sin^{-1}\left(\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{NA}{n_2}\right)\right)}](https://latex.codecogs.com/svg.latex?&space;\frac{\tan\left(\sin^{-1}\left(\frac{NA}{n_1}\right)\right)}{\tan\left(\sin^{-1}\left(\frac{NA}{n_2}\right)\right)})
 3) Mean correction
 4) Median correction
 
