@@ -27,6 +27,14 @@ The correction factor is calculated with 4 different approaches:
 
 The mean correction calculates the mean depth where 100 rays equally spaced along the radius of an objective’s front lens intersect the optical axis in the sample, and the median correction calculates the median intersection point.
 
+If using the C version, compile (with gcc, for example) with the math flag (because of the trigonometric functions)
+
+gcc SphericalAberrationFix.c -lm
+
+If using the python version, simply run the script
+
+python SA.py
+
 The equations were taken from the next reference:
 
 Diel, E.E., Lichtman, J.W. & Richardson, D.S. Tutorial: avoiding and correcting sample-induced spherical aberration artifacts in 3D fluorescence microscopy. Nat Protoc 15, 2773–2784 (2020).
