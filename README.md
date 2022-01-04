@@ -11,9 +11,7 @@ The correction factor is calculated with 4 different approaches:
 
 1) Carlsson's correction:
 
-<div align='center'>
- (https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))
-</div>
+![\left(\frac{n_2}{n_1}\right)]<div align='center'>(https://latex.codecogs.com/svg.latex?&space;\left(\frac{n_2}{n_1}\right))</div>
 
 2) Visser's correction:
 
